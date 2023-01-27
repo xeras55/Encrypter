@@ -58,7 +58,7 @@ const encrypter = () =>{
         });
 
         const answer = fixingWord.join('')
-        console.log(answer);
+        //console.log(answer);
         h3.style.visibility = "hidden";
         const image = document.getElementById('imageContainer');
         outputSpace.textContent= answer;
@@ -97,7 +97,7 @@ const unencrypter = () =>{
             wordToUnencrypt = wordToUnencrypt.replace('ufat', 'u');
             //console.log(wordToUnencrypt)
         }
-        console.log(wordToUnencrypt);
+        //console.log(wordToUnencrypt);
         h3.style.visibility = "hidden";
         const image = document.getElementById('imageContainer');
         outputSpace.textContent= wordToUnencrypt;

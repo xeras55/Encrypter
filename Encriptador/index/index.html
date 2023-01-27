@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>pruebas</title>
+    
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <div class="totalSpace">
+        <div class="firsSection">
+            <h1>a</h1>
+            <div class="allSection">
+                <textarea class="inputSpace" name="inputSpace" id="inputSpace" cols="30" rows=5" 
+                    placeholder="Ingresa aqui tu texto" ></textarea>
+            </div>
+            <div class="infoDiv">
+                <div class="alertIcon"></div>
+                <p class="labelUcon">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttonsSection">
+                <button class="encryptBtn" type="submit" onclick="encrypter()">Encriptar</button>
+                <button class="uneneCryptBtn" type="submit" onclick="unencrypter()">Desencriptar</button>
+            </div>
+        </div> 
+        <div class="secondSecction">    
+            <div id = 'unencryptSection' class="unencryptSection">
+                <textarea class="outputSpace" name="outputSpace" id="outputSpace" cols="30" rows="5"></textarea>
+                <div id= "imageContainer" class="imageContainer"></div>
+                <h3 id="h3" class="h3">Ningún mensaje fue encontrado</h3>
+                <p id="parragraph" class="parragraph">Ingresa un texto para Encriptar <br> o Desencriptar</p>
+                <button class="copy" id="copy" onclick="copyToClip()">Copiar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -15,3 +15,4 @@ Tenemos las funciones donde se puede encriptar, desencriptar y copiar el texto e
 ### Desencriptar
 
 ![Desencriptar Imagen](images/desencriptar.png "Hover text")
+[![LinkedIn Icon](images/linkedin_2504923.png)](http://www.linkedin.com/in/gerardosm)
